@@ -1,20 +1,4 @@
 name: Post welcome comment
-on: 
-  pull_request:
-    types: [opened]
-permissions: 
-  pull-requests: write
-name: Post welcome comment
-on:
-  pull_request:
-    types: [opened]
-permissions:
-  pull-requests: write
-jobs:
-  welcome:
-    name: Post welcome comment
-    runs-on: ubuntu-latest
-    name: Post welcome comment
 on:
   pull_request:
     types: [opened]
